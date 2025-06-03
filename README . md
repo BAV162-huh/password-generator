@@ -1,0 +1,38 @@
+# Strong Password Generator 🔐
+
+This is a simple Python project built using **Thonny IDE**.  
+Its goal is to generate strong and secure passwords for various social media services, such as:
+
+- Facebook
+- TikTok
+- Instagram
+- And more...
+
+## ⚙️ Features
+
+- Choose a service (Facebook, TikTok, Instagram, etc.)
+- Generate strong, random passwords
+- Display multiple password options
+- Easy-to-use interface
+
+## 🚀 How to Use
+
+1. Open the file using **Thonny**.
+2. Run the code.
+3. Select the service you want to generate a password for.
+4. The program will show several strong passwords.
+5. Click to copy any password you prefer.
+
+## 📂 Project Files
+
+- `main.py`: The main Python file containing the program code.
+- `README.md`: This file — describes the project.
+
+## 📌 Notes
+
+- Works perfectly on low-spec devices (32-bit, 2GB RAM).
+- No passwords are stored or saved.
+
+## 🧑‍💻 Developed by
+
+**Bavly Hany**
