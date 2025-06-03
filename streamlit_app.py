@@ -11,8 +11,11 @@ services = [
 
 st.set_page_config(page_title="Smart Password Generator", page_icon="🔐")
 
-st.title("🔐 Smart Password Generator")
-st.write("اختر الخدمة لتوليد كلمة مرور آمنة:")
+# ✅ اسم صاحب الموقع
+st.markdown("<h1 style='text-align: center; color: cyan;'>🔐 Smart Password Generator</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: #00ffaa;'>by Bavly Hany Roushdy (B.H.R)</h3>", unsafe_allow_html=True)
+
+st.write("## اختر الخدمة لتوليد كلمة مرور آمنة:")
 
 selected_service = st.selectbox("الخدمة", services)
 
@@ -20,5 +23,4 @@ if st.button("توليد كلمة مرور"):
     chars = string.ascii_letters + string.digits + "!@#$%^&*()-_=+"
     password = ''.join(random.choice(chars) for _ in range(14))
     st.success(f"🔑 كلمة المرور لخدمة {selected_service}:\n\n`{password}`")
-
     st.code(password, language='bash')
